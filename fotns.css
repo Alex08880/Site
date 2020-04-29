@@ -1,0 +1,95 @@
+/*Описание шрифтов*/
+
+/* ДЕФОЛТ */
+body{
+     font-family: 'Noto Sans', "Open Sans", 'Arial', sans-serif;
+     font-size: 21px;
+     font-weight: 500;
+
+}
+
+/* АВТОРИЗАЦИЯ */
+h1 {
+    display: block;
+    font-size: 1.3em;
+    /* font: 22px/24px Arial Regular, sans-serif; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    color: var(--text-color);
+}
+
+
+/* ЗАГОЛОВОК */
+h2 {
+    display: block;
+    font-size: 1.3em;
+    /* font: 22px/24px Arial Regular, sans-serif; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /*margin-bottom: -5px;*/
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+
+h3 {
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+
+p {
+    margin-top: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    margin-bottom: -15px;
+}
+
+
+a{
+    font: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-indent: 1em;
+    
+/*     Зададим высоту линии такой же как и у вмещающего блока, чтобы текст был по вертикальному центру */
+    line-height: 80px;
+    letter-spacing: 0.6em;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.menubar >a{
+    color: var(--text-color);
+}
+
+
+
+.article-meta  *{
+    font-size: 0.8em;
+    color: var(--text-color);
+}
+
+
+/* ТЕКСТ СТАТЬИ */
+.article-text
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 450;
+}
